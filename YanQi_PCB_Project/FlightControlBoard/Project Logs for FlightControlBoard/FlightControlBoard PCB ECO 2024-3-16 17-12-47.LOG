@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=FPC3 Old Footprint=FPC-SMD_FH34SRJ-4S-0.5SH-50 New Footprint=FFC-SMD_4P-P0.50_FH34SRJ-4S-0.5SH
+Add Pin To Net: Unknown Pin: Pin H1-1
+Add Pin To Net: Unknown Pin: Pin H2-1
+Add Pin To Net: Unknown Pin: Pin H3-1
+Add Pin To Net: Unknown Pin: Pin H4-1

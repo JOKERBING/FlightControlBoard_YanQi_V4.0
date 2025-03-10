@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=usb_converter-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=usb_converter-slotholes.txt|DrillLayers=gtl,gbl

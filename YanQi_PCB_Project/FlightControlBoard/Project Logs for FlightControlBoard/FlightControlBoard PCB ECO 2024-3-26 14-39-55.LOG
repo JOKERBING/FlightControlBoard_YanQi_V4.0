@@ -1,0 +1,144 @@
+Change Component Comment : Designator=R50 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R51 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R52 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R53 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R54 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R55 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R56 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R57 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R58 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R59 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R60 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R61 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R62 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R63 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R64 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R65 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R66 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R67 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R68 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R69 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R70 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R71 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R72 Old Comment=10次 New Comment=22次
+Change Component Comment : Designator=R73 Old Comment=10次 New Comment=22次
+Change component parameters: Designator = "R50" ("R50"); Footprint = "R0201"; UniqueID = "\UJBWKHGU" ("\UJBWKHGU")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R51" ("R51"); Footprint = "R0201"; UniqueID = "\PHWMDEHM" ("\PHWMDEHM")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R52" ("R52"); Footprint = "R0201"; UniqueID = "\IQDFBNPZ" ("\IQDFBNPZ")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R53" ("R53"); Footprint = "R0201"; UniqueID = "\HJMLGVIR" ("\HJMLGVIR")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R54" ("R54"); Footprint = "R0201"; UniqueID = "\ORZLDHRJ" ("\ORZLDHRJ")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R55" ("R55"); Footprint = "R0201"; UniqueID = "\DAJTHFDX" ("\DAJTHFDX")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R56" ("R56"); Footprint = "R0201"; UniqueID = "\BBQQDULI" ("\BBQQDULI")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R57" ("R57"); Footprint = "R0201"; UniqueID = "\BVTTSBSN" ("\BVTTSBSN")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R58" ("R58"); Footprint = "R0201"; UniqueID = "\DPWXRXOM" ("\DPWXRXOM")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R59" ("R59"); Footprint = "R0201"; UniqueID = "\TQRMREOW" ("\TQRMREOW")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R60" ("R60"); Footprint = "R0201"; UniqueID = "\YFNUDSVL" ("\YFNUDSVL")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R61" ("R61"); Footprint = "R0201"; UniqueID = "\NPMBKFJO" ("\NPMBKFJO")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R62" ("R62"); Footprint = "R0201"; UniqueID = "\TWHBQUHA" ("\TWHBQUHA")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R63" ("R63"); Footprint = "R0201"; UniqueID = "\FFMVRIUN" ("\FFMVRIUN")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R64" ("R64"); Footprint = "R0201"; UniqueID = "\ITGFADTT" ("\ITGFADTT")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R65" ("R65"); Footprint = "R0201"; UniqueID = "\BTNRKUBP" ("\BTNRKUBP")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R66" ("R66"); Footprint = "R0201"; UniqueID = "\YOVNUQUF" ("\YOVNUQUF")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R67" ("R67"); Footprint = "R0201"; UniqueID = "\PIYCEYKT" ("\PIYCEYKT")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R68" ("R68"); Footprint = "R0201"; UniqueID = "\WTUCZHMO" ("\WTUCZHMO")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R69" ("R69"); Footprint = "R0201"; UniqueID = "\USPKDORI" ("\USPKDORI")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R70" ("R70"); Footprint = "R0201"; UniqueID = "\UWHJNIHR" ("\UWHJNIHR")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R71" ("R71"); Footprint = "R0201"; UniqueID = "\WAJWJQMW" ("\WAJWJQMW")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R72" ("R72"); Footprint = "R0201"; UniqueID = "\IDMDSENN" ("\IDMDSENN")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R73" ("R73"); Footprint = "R0201"; UniqueID = "\AUCAIGZD" ("\AUCAIGZD")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "22次"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22次"; VariantName = "[No Variations]"

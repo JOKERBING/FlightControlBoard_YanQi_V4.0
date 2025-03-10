@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=USB_CC2 Pin=FPC1-2
+Removed Pin From Net: NetName=USB_D- Pin=FPC1-3
+Removed Pin From Net: NetName=USB_D+ Pin=FPC1-4
+Removed Pin From Net: NetName=USB_CC1 Pin=FPC1-5
+Removed Pin From Net: NetName=M3_VS3 Pin=P20-
+Added Pin To Net: NetName=USB_CC1 Pin=FPC1-2
+Added Pin To Net: NetName=USB_D+ Pin=FPC1-3
+Added Pin To Net: NetName=USB_D- Pin=FPC1-4
+Added Pin To Net: NetName=USB_CC2 Pin=FPC1-5
+Add Pin To Net: Unknown Pin: Pin P20-1
+Added Member To Class: ClassName=ESC Member=Component P19 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P20 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P23 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P25 MotorPad

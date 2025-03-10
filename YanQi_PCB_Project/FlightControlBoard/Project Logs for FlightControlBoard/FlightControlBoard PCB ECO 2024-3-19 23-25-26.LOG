@@ -1,0 +1,5 @@
+Change Net Name : Old Net Name=M3_VB1 New Net Name=M3_VS1
+Added Pin To Net: NetName=M3_VB1 Pin=C23-2
+Added Pin To Net: NetName=M3_VB1 Pin=D7-1
+Added Pin To Net: NetName=M3_VB1 Pin=U8-20
+Added Net: Name=M3_VB1

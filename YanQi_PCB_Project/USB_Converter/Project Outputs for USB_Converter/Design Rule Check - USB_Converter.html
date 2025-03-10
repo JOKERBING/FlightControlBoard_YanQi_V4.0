@@ -1,0 +1,462 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://D:\Altium\AD23\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2025/3/6</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">22:31:50</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc" class="file"><acronym title="F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc">F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">42</td></tr>
+</table>
+</td>
+</table><a name="IDEXSF4JMX5UBKEHLFQRE3KRDNPHBOOZH1VV2UUNGHFPN2KB2NPNKG"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZHRHYO55TDYQLVFLDAZZIGWBTBGMWZ5NPNOUA0OQO1VZZXDETKGF">Clearance Constraint (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJHXWRAQQWQRFHVEOFRKNU1A00GJ2YUAGIRAJE3NPPFPBKPT3DB5M">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2V21PVM1F1ERJCLTUMUZCTEA5FZRAQSCHQVOQVCC2IBS5ZDRE54B">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPKOB1Q3TNCZDSJ0KX4IV0LMQNH2YBYQWNJCJJEKROY50PWAM1V">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1V3LXG4GENQJNNTMXLGXANWN1DVACNENX4ZADRLUQ53RATBDKCT">Width Constraint (Min=0.254mm) (Max=5mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQFIGEOWVVFHAN0WFBOBCDQDBWO52OKAEPWX1BVCBK00YD3XNT5UI">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJJ32WEEHK4YSMQAFPCOWAW3DDCI45UQE3SCQZKNVGN4JES30T3WM">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYZZ1UU1YIXJLRFKHP1VAGJGJ3KPSREGGBLRQI2H1A04ZODZT1I">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCFYDZ3POI2RZPHE1Z0OZMKZDCK5GML3WCT3Z0VD5PILUUBHXF3OG">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">16</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3MFEBQFSFAVJCABOUYZB5GX0YNHSWXVWLDZX52CE1INM53PIS1PO">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</a></td>
+<td class="column2">19</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNA0AICYXXTNKFRHIIZPNPY1OFBGEBEMKXK3YLYETZ0E4D24JCD3E">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">7</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPHCVB1CEXFILH2A4SIZARSN04IPOXD53QYBGMMOMYC2WW2VBCBRM">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNLLMOXSXW4JXLD5LREC5IZQSMBUBVP1GNIC02CE2CYQCNYEZ2DXI">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">42</td>
+</tr>
+</table><br><a name="IDCFYDZ3POI2RZPHE1Z0OZMKZDCK5GML3WCT3Z0VD5PILUUBHXF3OG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4887.546mil|Location2.X=4898.796mil|Location1.Y=3135.555mil|Location2.Y=3146.805mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4887.546mil|Location2.X=4898.796mil|Location1.Y=3135.555mil|Location2.Y=3146.805mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.1mm &lt; 0.254mm) Between Pad J1-1(27.813mm,5.5mm) on Top Layer And Pad J1-2(27.813mm,6.1mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4887.546mil|Location2.X=4898.796mil|Location1.Y=3159.175mil|Location2.Y=3170.425mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4887.546mil|Location2.X=4898.796mil|Location1.Y=3159.175mil|Location2.Y=3170.425mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.1mm &lt; 0.254mm) Between Pad J1-2(27.813mm,6.1mm) on Top Layer And Pad J1-3(27.813mm,6.7mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4887.546mil|Location2.X=4898.796mil|Location1.Y=3182.8mil|Location2.Y=3194.05mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4887.546mil|Location2.X=4898.796mil|Location1.Y=3182.8mil|Location2.Y=3194.05mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.1mm &lt; 0.254mm) Between Pad J1-3(27.813mm,6.7mm) on Top Layer And Pad J1-4(27.813mm,7.3mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4887.546mil|Location2.X=4898.796mil|Location1.Y=3206.42mil|Location2.Y=3217.67mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4887.546mil|Location2.X=4898.796mil|Location1.Y=3206.42mil|Location2.Y=3217.67mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.1mm &lt; 0.254mm) Between Pad J1-4(27.813mm,7.3mm) on Top Layer And Pad J1-5(27.813mm,7.9mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4887.546mil|Location2.X=4898.796mil|Location1.Y=3230.04mil|Location2.Y=3241.29mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4887.546mil|Location2.X=4898.796mil|Location1.Y=3230.04mil|Location2.Y=3241.29mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.1mm &lt; 0.254mm) Between Pad J1-5(27.813mm,7.9mm) on Top Layer And Pad J1-6(27.813mm,8.5mm) on Top Layer [Top Solder] Mask Sliver [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4036.627mil|Location2.X=4047.877mil|Location1.Y=3072.17mil|Location2.Y=3083.42mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4036.627mil|Location2.X=4047.877mil|Location1.Y=3072.17mil|Location2.Y=3083.42mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.098mm &lt; 0.254mm) Between Pad USBC1-A12B1(7.05mm,3.79mm) on Top Layer And Pad USBC1-A9B4(7.05mm,4.59mm) on Top Layer [Top Solder] Mask Sliver [0.098mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3222.17mil|Location2.Y=3233.42mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3222.17mil|Location2.Y=3233.42mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099mm &lt; 0.254mm) Between Pad USBC1-A5(7.05mm,8.25mm) on Top Layer And Pad USBC1-B7(7.05mm,7.75mm) on Top Layer [Top Solder] Mask Sliver [0.099mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3241.855mil|Location2.Y=3253.105mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3241.855mil|Location2.Y=3253.105mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.098mm &lt; 0.254mm) Between Pad USBC1-A5(7.05mm,8.25mm) on Top Layer And Pad USBC1-B8(7.05mm,8.75mm) on Top Layer [Top Solder] Mask Sliver [0.098mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3182.8mil|Location2.Y=3194.05mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3182.8mil|Location2.Y=3194.05mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099mm &lt; 0.254mm) Between Pad USBC1-A6(7.05mm,7.25mm) on Top Layer And Pad USBC1-A7(7.05mm,6.75mm) on Top Layer [Top Solder] Mask Sliver [0.099mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3202.485mil|Location2.Y=3213.735mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3202.485mil|Location2.Y=3213.735mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.098mm &lt; 0.254mm) Between Pad USBC1-A6(7.05mm,7.25mm) on Top Layer And Pad USBC1-B7(7.05mm,7.75mm) on Top Layer [Top Solder] Mask Sliver [0.098mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3163.115mil|Location2.Y=3174.365mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3163.115mil|Location2.Y=3174.365mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.098mm &lt; 0.254mm) Between Pad USBC1-A7(7.05mm,6.75mm) on Top Layer And Pad USBC1-B6(7.05mm,6.25mm) on Top Layer [Top Solder] Mask Sliver [0.098mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3123.745mil|Location2.Y=3134.995mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3123.745mil|Location2.Y=3134.995mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.098mm &lt; 0.254mm) Between Pad USBC1-A8(7.05mm,5.75mm) on Top Layer And Pad USBC1-B5(7.05mm,5.25mm) on Top Layer [Top Solder] Mask Sliver [0.098mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3143.43mil|Location2.Y=3154.68mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3143.43mil|Location2.Y=3154.68mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.099mm &lt; 0.254mm) Between Pad USBC1-A8(7.05mm,5.75mm) on Top Layer And Pad USBC1-B6(7.05mm,6.25mm) on Top Layer [Top Solder] Mask Sliver [0.099mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3103.863mil|Location2.Y=3115.113mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.06mil|Location2.X=4087.31mil|Location1.Y=3103.863mil|Location2.Y=3115.113mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.109mm &lt; 0.254mm) Between Pad USBC1-A9B4(7.05mm,4.59mm) on Top Layer And Pad USBC1-B5(7.05mm,5.25mm) on Top Layer [Top Solder] Mask Sliver [0.109mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4036.627mil|Location2.X=4047.877mil|Location1.Y=3293.43mil|Location2.Y=3304.68mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4036.627mil|Location2.X=4047.877mil|Location1.Y=3293.43mil|Location2.Y=3304.68mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.098mm &lt; 0.254mm) Between Pad USBC1-B12A1(7.05mm,10.21mm) on Top Layer And Pad USBC1-B9A4(7.05mm,9.41mm) on Top Layer [Top Solder] Mask Sliver [0.098mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4036.627mil|Location2.X=4047.877mil|Location1.Y=3261.738mil|Location2.Y=3272.988mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4036.627mil|Location2.X=4047.877mil|Location1.Y=3261.738mil|Location2.Y=3272.988mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.109mm &lt; 0.254mm) Between Pad USBC1-B8(7.05mm,8.75mm) on Top Layer And Pad USBC1-B9A4(7.05mm,9.41mm) on Top Layer [Top Solder] Mask Sliver [0.109mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID3MFEBQFSFAVJCABOUYZB5GX0YNHSWXVWLDZX52CE1INM53PIS1PO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4883.849mil|Location2.X=4895.099mil|Location1.Y=3113.007mil|Location2.Y=3124.257mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4883.849mil|Location2.X=4895.099mil|Location1.Y=3113.007mil|Location2.Y=3124.257mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.146mm &lt; 0.254mm) Between Pad J1-1(27.813mm,5.5mm) on Top Layer And Region (0 hole(s)) Top Overlay [Top Overlay] to [Top Solder] clearance [0.146mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4863.767mil|Location2.X=4875.017mil|Location1.Y=3112.239mil|Location2.Y=3123.489mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4863.767mil|Location2.X=4875.017mil|Location1.Y=3112.239mil|Location2.Y=3123.489mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.185mm &lt; 0.254mm) Between Pad J1-1(27.813mm,5.5mm) on Top Layer And Track (27.559mm,4.23mm)(27.559mm,5.056mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.185mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4904.178mil|Location2.X=4915.428mil|Location1.Y=3073.745mil|Location2.Y=3084.995mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4904.178mil|Location2.X=4915.428mil|Location1.Y=3073.745mil|Location2.Y=3084.995mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.155mm &lt; 0.254mm) Between Pad J1-7(29.187mm,4.55mm) on Top Layer And Track (27.559mm,4.23mm)(28.448mm,4.23mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.155mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4948.076mil|Location2.X=4959.326mil|Location1.Y=3103.254mil|Location2.Y=3114.504mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4948.076mil|Location2.X=4959.326mil|Location1.Y=3103.254mil|Location2.Y=3114.504mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.159mm &lt; 0.254mm) Between Pad J1-7(29.187mm,4.55mm) on Top Layer And Track (29.7mm,5.119mm)(29.7mm,8.936mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.159mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4904.178mil|Location2.X=4915.428mil|Location1.Y=3292.522mil|Location2.Y=3303.772mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4904.178mil|Location2.X=4915.428mil|Location1.Y=3292.522mil|Location2.Y=3303.772mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.155mm &lt; 0.254mm) Between Pad J1-8(29.187mm,9.45mm) on Top Layer And Track (27.559mm,9.787mm)(28.448mm,9.787mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.155mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4948.076mil|Location2.X=4959.326mil|Location1.Y=3263.426mil|Location2.Y=3274.676mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4948.076mil|Location2.X=4959.326mil|Location1.Y=3263.426mil|Location2.Y=3274.676mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.104mm &lt; 0.254mm) Between Pad J1-8(29.187mm,9.45mm) on Top Layer And Track (29.7mm,5.119mm)(29.7mm,8.936mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.104mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4907.102mil|Location2.X=4918.352mil|Location1.Y=3281.274mil|Location2.Y=3292.524mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4907.102mil|Location2.X=4918.352mil|Location1.Y=3281.274mil|Location2.Y=3292.524mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.181mm &lt; 0.254mm) Between Pad P1-1(29mm,9.5mm) on Bottom Layer And Text "GND" (28.569mm,9.309mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.181mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4919.547mil|Location2.X=4930.797mil|Location1.Y=3294.021mil|Location2.Y=3305.271mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4919.547mil|Location2.X=4930.797mil|Location1.Y=3294.021mil|Location2.Y=3305.271mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.15mm &lt; 0.254mm) Between Pad P1-1(29mm,9.5mm) on Bottom Layer And Track (26.95mm,10mm)(29.45mm,10mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4932.328mil|Location2.X=4943.578mil|Location1.Y=3280.256mil|Location2.Y=3291.506mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4932.328mil|Location2.X=4943.578mil|Location1.Y=3280.256mil|Location2.Y=3291.506mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.254mm) Between Pad P1-1(29mm,9.5mm) on Bottom Layer And Track (29.45mm,4mm)(29.45mm,10mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4905.933mil|Location2.X=4917.183mil|Location1.Y=3123.609mil|Location2.Y=3134.859mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4905.933mil|Location2.X=4917.183mil|Location1.Y=3123.609mil|Location2.Y=3134.859mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.241mm &lt; 0.254mm) Between Pad P2-1(29mm,5.5mm) on Bottom Layer And Text "CC2" (28.509mm,5.309mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4932.328mil|Location2.X=4943.578mil|Location1.Y=3122.776mil|Location2.Y=3134.026mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4932.328mil|Location2.X=4943.578mil|Location1.Y=3122.776mil|Location2.Y=3134.026mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.254mm) Between Pad P2-1(29mm,5.5mm) on Bottom Layer And Track (29.45mm,4mm)(29.45mm,10mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4932.328mil|Location2.X=4943.578mil|Location1.Y=3201.516mil|Location2.Y=3212.766mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4932.328mil|Location2.X=4943.578mil|Location1.Y=3201.516mil|Location2.Y=3212.766mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.254mm) Between Pad P3-1(29mm,7.5mm) on Bottom Layer And Track (29.45mm,4mm)(29.45mm,10mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4932.328mil|Location2.X=4943.578mil|Location1.Y=3162.146mil|Location2.Y=3173.396mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4932.328mil|Location2.X=4943.578mil|Location1.Y=3162.146mil|Location2.Y=3173.396mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.254mm) Between Pad P4-1(29mm,6.5mm) on Bottom Layer And Track (29.45mm,4mm)(29.45mm,10mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4932.328mil|Location2.X=4943.578mil|Location1.Y=3240.886mil|Location2.Y=3252.136mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4932.328mil|Location2.X=4943.578mil|Location1.Y=3240.886mil|Location2.Y=3252.136mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.254mm) Between Pad P5-1(29mm,8.5mm) on Bottom Layer And Track (29.45mm,4mm)(29.45mm,10mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4919.547mil|Location2.X=4930.797mil|Location1.Y=3071.58mil|Location2.Y=3082.83mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4919.547mil|Location2.X=4930.797mil|Location1.Y=3071.58mil|Location2.Y=3082.83mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.15mm &lt; 0.254mm) Between Pad P6-1(29mm,4.5mm) on Bottom Layer And Track (26.95mm,4mm)(29.45mm,4mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.15mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4932.328mil|Location2.X=4943.578mil|Location1.Y=3083.406mil|Location2.Y=3094.656mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4932.328mil|Location2.X=4943.578mil|Location1.Y=3083.406mil|Location2.Y=3094.656mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.254mm) Between Pad P6-1(29mm,4.5mm) on Bottom Layer And Track (29.45mm,4mm)(29.45mm,10mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4037.484mil|Location2.X=4050.987mil|Location1.Y=3041.352mil|Location2.Y=3052.602mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4037.484mil|Location2.X=4050.987mil|Location1.Y=3041.352mil|Location2.Y=3052.602mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.176mm &lt; 0.254mm) Between Pad USBC1-A12B1(7.05mm,3.79mm) on Top Layer And Track (6.5mm,2.496mm)(6.5mm,3.204mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.176mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4037.651mil|Location2.X=4050.876mil|Location1.Y=3042.358mil|Location2.Y=3053.608mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4037.651mil|Location2.X=4050.876mil|Location1.Y=3042.358mil|Location2.Y=3053.608mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.125mm &lt; 0.254mm) Between Pad USBC1-A12B1(7.05mm,3.79mm) on Top Layer And Track (6.5mm,3.204mm)(6.5mm,3.259mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4037.65mil|Location2.X=4050.837mil|Location1.Y=3323.244mil|Location2.Y=3334.494mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4037.65mil|Location2.X=4050.837mil|Location1.Y=3323.244mil|Location2.Y=3334.494mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.125mm &lt; 0.254mm) Between Pad USBC1-B12A1(7.05mm,10.21mm) on Top Layer And Track (6.5mm,10.741mm)(6.5mm,11.5mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDNA0AICYXXTNKFRHIIZPNPY1OFBGEBEMKXK3YLYETZ0E4D24JCD3E"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4823.876mil|Location2.X=4835.126mil|Location1.Y=3135.494mil|Location2.Y=3146.744mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4823.876mil|Location2.X=4835.126mil|Location1.Y=3135.494mil|Location2.Y=3146.744mil|Absolute=True">Silk To Silk Clearance Constraint: (0.207mm &lt; 0.254mm) Between Text "5V" (26.185mm,5.312mm) on Top Overlay And Text "CC2" (25.991mm,5.909mm) on Top Overlay Silk Text to Silk Clearance [0.207mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4888.586mil|Location2.X=4899.836mil|Location1.Y=3072.664mil|Location2.Y=3083.914mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4888.586mil|Location2.X=4899.836mil|Location1.Y=3072.664mil|Location2.Y=3083.914mil|Absolute=True">Silk To Silk Clearance Constraint: (0.205mm &lt; 0.254mm) Between Text "5V" (28.315mm,4.312mm) on Bottom Overlay And Track (26.95mm,4mm)(29.45mm,4mm) on Bottom Overlay Silk Text to Silk Clearance [0.205mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4810.096mil|Location2.X=4821.346mil|Location1.Y=3206.294mil|Location2.Y=3217.544mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4810.096mil|Location2.X=4821.346mil|Location1.Y=3206.294mil|Location2.Y=3217.544mil|Absolute=True">Silk To Silk Clearance Constraint: (0.21mm &lt; 0.254mm) Between Text "CC1" (26.021mm,7.709mm) on Top Overlay And Text "DP" (26.16mm,7.108mm) on Top Overlay Silk Text to Silk Clearance [0.21mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4808.875mil|Location2.X=4820.125mil|Location1.Y=3230.046mil|Location2.Y=3241.296mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4808.875mil|Location2.X=4820.125mil|Location1.Y=3230.046mil|Location2.Y=3241.296mil|Absolute=True">Silk To Silk Clearance Constraint: (0.209mm &lt; 0.254mm) Between Text "CC1" (26.021mm,7.709mm) on Top Overlay And Text "GND" (25.931mm,8.309mm) on Top Overlay Silk Text to Silk Clearance [0.209mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4809.099mil|Location2.X=4820.349mil|Location1.Y=3159.306mil|Location2.Y=3170.556mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4809.099mil|Location2.X=4820.349mil|Location1.Y=3159.306mil|Location2.Y=3170.556mil|Absolute=True">Silk To Silk Clearance Constraint: (0.21mm &lt; 0.254mm) Between Text "CC2" (25.991mm,5.909mm) on Top Overlay And Text "DM" (26.122mm,6.508mm) on Top Overlay Silk Text to Silk Clearance [0.21mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4813.088mil|Location2.X=4824.338mil|Location1.Y=3182.8mil|Location2.Y=3194.05mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4813.088mil|Location2.X=4824.338mil|Location1.Y=3182.8mil|Location2.Y=3194.05mil|Absolute=True">Silk To Silk Clearance Constraint: (0.217mm &lt; 0.254mm) Between Text "DM" (26.122mm,6.508mm) on Top Overlay And Text "DP" (26.16mm,7.108mm) on Top Overlay Silk Text to Silk Clearance [0.217mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4895.856mil|Location2.X=4907.106mil|Location1.Y=3292.999mil|Location2.Y=3304.249mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\USB_Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4895.856mil|Location2.X=4907.106mil|Location1.Y=3292.999mil|Location2.Y=3304.249mil|Absolute=True">Silk To Silk Clearance Constraint: (0.202mm &lt; 0.254mm) Between Text "GND" (28.569mm,9.309mm) on Bottom Overlay And Track (26.95mm,10mm)(29.45mm,10mm) on Bottom Overlay Silk Text to Silk Clearance [0.202mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

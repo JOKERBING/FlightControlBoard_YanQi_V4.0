@@ -1,0 +1,100 @@
+Removed Pin From Net: NetName=System_5V Pin=FPC1-1
+Removed Pin From Net: NetName=USART6_TX Pin=FPC1-2
+Removed Pin From Net: NetName=USART6_RX Pin=FPC1-3
+Removed Pin From Net: NetName=USART3_TX Pin=FPC1-4
+Removed Pin From Net: NetName=USART3_RX Pin=FPC1-5
+Removed Pin From Net: NetName=I2C2_SCL Pin=FPC1-6
+Removed Pin From Net: NetName=I2C2_SDA Pin=FPC1-7
+Removed Pin From Net: NetName=SRGBLED Pin=FPC1-8
+Removed Pin From Net: NetName=GND Pin=FPC1-12
+Removed Pin From Net: NetName=GND Pin=FPC1-13
+Removed Pin From Net: NetName=GND Pin=FPC1-14
+Removed Pin From Net: NetName=System_5V Pin=FPC3-1
+Removed Pin From Net: NetName=USART2_RX Pin=FPC3-2
+Removed Pin From Net: NetName=USART2_TX Pin=FPC3-3
+Removed Pin From Net: NetName=UART7_RX Pin=FPC3-6
+Removed Pin From Net: NetName=UART7_TX Pin=FPC3-7
+Removed Pin From Net: NetName=UART5_RX Pin=FPC3-8
+Removed Pin From Net: NetName=UART5_TX Pin=FPC3-9
+Removed Pin From Net: NetName=USART1_RX Pin=FPC3-10
+Removed Pin From Net: NetName=USART1_TX Pin=FPC3-11
+Removed Pin From Net: NetName=GND Pin=FPC3-12
+Removed Pin From Net: NetName=GND Pin=FPC3-13
+Removed Pin From Net: NetName=GND Pin=FPC3-14
+Removed Member From Class: ClassName=Interface Member=FPC1
+Removed Member From Class: ClassName=Interface Member=FPC3
+Added Component: Designator=J??(ELRSPad)
+Added Component: Designator=J?(CONN-SMD_4P-P0.6)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20231218/E491C8E1E509E6459DF900917B8E5F93.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "SM04B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "SM04B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "SM04B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C5223639"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "SM04B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Added Component: Designator=J?(CONN-SMD_6P-P0.6)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Í­ºÏ½ð"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Îý"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating (Max)"; Value = "200mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20211104/F92F039D0CBA277DB4B3F7158FB08335.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "SM06B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "SM06B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "SM06B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "ÎÔÌù"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Range"; Value = "-25¡æ~+85¡æ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SMD,P=0.6mm,ÎÔÌù"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C5306600"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "SM06B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Added Component: Designator=J?(CONN-SMD_4P-P0.6)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20231218/E491C8E1E509E6459DF900917B8E5F93.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "SM04B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "SM04B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "SM04B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C5223639"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "SM04B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-1
+Added Pin To Net: NetName=System_5V Pin=J?-2
+Added Pin To Net: NetName=System_5V Pin=J?-2
+Added Pin To Net: NetName=System_5V Pin=J?-2
+Added Pin To Net: NetName=UART7_TX Pin=J?-3
+Added Pin To Net: NetName=USART1_RX Pin=J?-3
+Added Pin To Net: NetName=USART2_TX Pin=J?-3
+Added Pin To Net: NetName=UART7_RX Pin=J?-4
+Added Pin To Net: NetName=USART1_TX Pin=J?-4
+Added Pin To Net: NetName=USART2_RX Pin=J?-4
+Added Pin To Net: NetName=GND Pin=J?-5
+Added Pin To Net: NetName=GND Pin=J?-5
+Added Pin To Net: NetName=I2C2_SCL Pin=J?-5
+Added Pin To Net: NetName=GND Pin=J?-6
+Added Pin To Net: NetName=GND Pin=J?-6
+Added Pin To Net: NetName=I2C2_SDA Pin=J?-6
+Added Pin To Net: NetName=GND Pin=J?-7
+Added Pin To Net: NetName=GND Pin=J?-8
+Added Pin To Net: NetName=GND Pin=J??-1
+Added Pin To Net: NetName=System_5V Pin=J??-2
+Added Pin To Net: NetName=UART5_RX Pin=J??-3
+Added Pin To Net: NetName=UART5_TX Pin=J??-4
+Added Member To Class: ClassName=Interface Member=Component J?? ZX-SH1.0-4PWT
+Added Member To Class: ClassName=Interface Member=Component J? SM04B-XSRS-ETB(LF)(SN)
+Added Member To Class: ClassName=Interface Member=Component J? SM06B-XSRS-ETB(LF)(SN)
+Added Member To Class: ClassName=Interface Member=Component J? SM04B-XSRS-ETB(LF)(SN)

@@ -1,0 +1,17 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: USB_Converter.PcbDoc   2025/3/6  22:32:44
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : USB_Converter-RoundHoles.TXT
+ASCII SlotHoles File : USB_Converter-SlotHoles.TXT
+EIA File   : USB_Converter.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             14        PTH        2.55inch (64.73mm)
+T2      26mil (0.65mm)                                            Slot              4         PTH        1.64inch (41.65mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              18
+
+Total Processing Time (hh:mm:ss) : 00:00:00

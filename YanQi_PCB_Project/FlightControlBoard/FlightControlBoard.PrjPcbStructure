@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=ESC.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=ESC.SchDoc|FileName=Interface.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=ESC.SchDoc|FileName=MCU.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=ESC.SchDoc|FileName=Peripheral.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=ESC.SchDoc|FileName=Power.SchDoc|SheetNumber=4

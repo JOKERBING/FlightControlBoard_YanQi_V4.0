@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=VBAT Pin=C51-1
+Removed Pin From Net: NetName=GND Pin=C51-2
+Removed Pin From Net: NetName=BAT Pin=C57-1
+Removed Pin From Net: NetName=GND Pin=C57-2
+Removed Member From Class: ClassName=Power Member=C56
+Removed Member From Class: ClassName=Power Member=C57
+Removed Member From Class: ClassName=Interface Member=C69
+Removed Member From Class: ClassName=Interface Member=C70
+Change Component Designator: OldDesignator=C52 NewDesignator=C51
+Change Component Designator: OldDesignator=C53 NewDesignator=C52
+Change Component Designator: OldDesignator=C54 NewDesignator=C53
+Change Component Designator: OldDesignator=C55 NewDesignator=C54
+Change Component Designator: OldDesignator=C56 NewDesignator=C55
+Change Component Designator: OldDesignator=C58 NewDesignator=C56
+Change Component Designator: OldDesignator=C59 NewDesignator=C58
+Change Component Designator: OldDesignator=C61 NewDesignator=C62
+Change Component Designator: OldDesignator=C62 NewDesignator=C64
+Change Component Designator: OldDesignator=C63 NewDesignator=C66
+Change Component Designator: OldDesignator=C64 NewDesignator=C67
+Change Component Designator: OldDesignator=C65 NewDesignator=C68
+Change Component Designator: OldDesignator=C66 NewDesignator=C57
+Change Component Designator: OldDesignator=C67 NewDesignator=C59
+Change Component Designator: OldDesignator=C68 NewDesignator=C61
+Change Component Designator: OldDesignator=C69 NewDesignator=C63
+Change Component Designator: OldDesignator=C70 NewDesignator=C65
+Change Component Designator: OldDesignator=FPC1 NewDesignator=FPC2
+Change Component Designator: OldDesignator=FPC2 NewDesignator=FPC1
+Change Component Designator: OldDesignator=FPC3 NewDesignator=FPC4
+Change Component Designator: OldDesignator=FPC4 NewDesignator=FPC3
+Added Member To Class: ClassName=Interface Member=Component C66 22uF
+Added Member To Class: ClassName=Interface Member=Component C67 22uF

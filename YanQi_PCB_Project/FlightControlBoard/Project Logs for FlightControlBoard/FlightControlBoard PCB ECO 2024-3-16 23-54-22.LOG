@@ -1,0 +1,20 @@
+Change Component Footprint: Designator=P16 Old Footprint=MotorPad New Footprint=MOTOR HALF HOLE
+Change Component Footprint: Designator=P17 Old Footprint=MotorPad New Footprint=MOTOR HALF HOLE
+Change Component Footprint: Designator=P18 Old Footprint=MotorPad New Footprint=MOTOR HALF HOLE
+Change Component Footprint: Designator=P19 Old Footprint=MotorPad New Footprint=MOTOR HALF HOLE
+Change Component Footprint: Designator=P20 Old Footprint=MotorPad New Footprint=MOTOR HALF HOLE
+Change Component Footprint: Designator=P21 Old Footprint=MotorPad New Footprint=MOTOR HALF HOLE
+Change Component Footprint: Designator=P22 Old Footprint=MotorPad New Footprint=MOTOR HALF HOLE
+Change Component Footprint: Designator=P23 Old Footprint=MotorPad New Footprint=MOTOR HALF HOLE
+Change Component Footprint: Designator=P24 Old Footprint=MotorPad New Footprint=MOTOR HALF HOLE
+Change Component Footprint: Designator=P25 Old Footprint=MotorPad New Footprint=MOTOR HALF HOLE
+Change Component Footprint: Designator=P26 Old Footprint=MotorPad New Footprint=MOTOR HALF HOLE
+Change Component Footprint: Designator=P27 Old Footprint=MotorPad New Footprint=MOTOR HALF HOLE
+Change Component Footprint: Designator=P28 Old Footprint=POWERPAD New Footprint=POWER HALF HOLE
+Change Component Footprint: Designator=P29 Old Footprint=POWERPAD New Footprint=POWER HALF HOLE
+Change Component Footprint: Designator=P30 Old Footprint=POWERPAD New Footprint=POWER HALF HOLE
+Change Component Footprint: Designator=P31 Old Footprint=POWERPAD New Footprint=POWER HALF HOLE
+Add Pin To Net: Unknown Pin: Pin H1-1
+Add Pin To Net: Unknown Pin: Pin H2-1
+Add Pin To Net: Unknown Pin: Pin H3-1
+Add Pin To Net: Unknown Pin: Pin H4-1

@@ -1,0 +1,29 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [USB_Converter.PrjPcb]
+   Generated File[USB_Converter_Legend_Top.gbr]
+   Generated File[USB_Converter_Paste_Top.gbr]
+   Generated File[USB_Converter_Soldermask_Top.gbr]
+   Generated File[USB_Converter_Copper_Signal_Top.gbr]
+   Generated File[USB_Converter_Copper_Signal_Bot.gbr]
+   Generated File[USB_Converter_Soldermask_Bot.gbr]
+   Generated File[USB_Converter_Paste_Bot.gbr]
+   Generated File[USB_Converter_Legend_Bot.gbr]
+   Generated File[USB_Converter_Mechanical_1.gbr]
+   Generated File[USB_Converter_Mechanical_6.gbr]
+   Generated File[USB_Converter_Mechanical_15.gbr]
+   Generated File[USB_Converter_Keep-out.gbr]
+   Generated File[USB_Converter_Pads_Top.gbr]
+   Generated File[USB_Converter_Pads_Bot.gbr]
+   Generated File[USB_Converter_Drawing_1.gbr]
+   Generated File[USB_Converter_Drillmap_1.gbr]
+   Generated File[USB_Converter_Profile.gbr]
+   Generated File[USB_Converter.RUL]
+   Generated File[USB_Converter.EXTREP]
+   Generated File[USB_Converter.REP]
+
+
+Files Generated   : 20
+Documents Printed : 0
+
+Finished Output Generation At 18:21:01 On 2025/3/8

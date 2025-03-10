@@ -1,0 +1,20 @@
+Added Component: Designator=P?(BurnPad_0.5mm)
+Added Component: Designator=P?(BurnPad_0.5mm)
+Added Component: Designator=P?(BurnPad_0.5mm)
+Added Component: Designator=P?(BurnPad_0.5mm)
+Added Component: Designator=P?(BurnPad_0.5mm)
+Added Component: Designator=P?(BurnPad_0.5mm)
+Added Pin To Net: NetName=GND Pin=P?-1
+Added Pin To Net: NetName=USB_5V Pin=P?-1
+Added Pin To Net: NetName=USB_CC1 Pin=P?-1
+Added Pin To Net: NetName=USB_CC2 Pin=P?-1
+Added Pin To Net: NetName=USB_D+ Pin=P?-1
+Added Pin To Net: NetName=USB_D- Pin=P?-1
+Added Member To Class: ClassName=USB_Converter Member=Component P? BurnPad
+Added Member To Class: ClassName=USB_Converter Member=Component P? BurnPad
+Added Member To Class: ClassName=USB_Converter Member=Component P? BurnPad
+Added Member To Class: ClassName=USB_Converter Member=Component P? BurnPad
+Added Member To Class: ClassName=USB_Converter Member=Component P? BurnPad
+Added Member To Class: ClassName=USB_Converter Member=Component P? BurnPad
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3

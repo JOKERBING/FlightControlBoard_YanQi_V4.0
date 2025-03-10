@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=MCU Member=P1
+Removed Member From Class: ClassName=MCU Member=P3
+Change Component Footprint: Designator=P32 Old Footprint=BURNPAD_0.8MM New Footprint=BurnPad_0.5mm
+Added Member To Class: ClassName=Interface Member=Component J? SM04B-XSRS-ETB(LF)(SN)
+Added Member To Class: ClassName=Interface Member=Component J? SM04B-XSRS-ETB(LF)(SN)

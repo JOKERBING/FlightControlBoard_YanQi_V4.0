@@ -1,0 +1,16 @@
+Change Component Footprint: Designator=H1 Old Footprint=M2_HOLE New Footprint=M3_HOLE
+Change Component Footprint: Designator=H2 Old Footprint=M2_HOLE New Footprint=M3_HOLE
+Change Component Footprint: Designator=H3 Old Footprint=M2_HOLE New Footprint=M3_HOLE
+Change Component Footprint: Designator=H4 Old Footprint=M2_HOLE New Footprint=M3_HOLE
+Change Component Comment : Designator=H1 Old Comment=M2_HOLE New Comment=M3_HOLE
+Change Component Comment : Designator=H2 Old Comment=M2_HOLE New Comment=M3_HOLE
+Change Component Comment : Designator=H3 Old Comment=M2_HOLE New Comment=M3_HOLE
+Change Component Comment : Designator=H4 Old Comment=M2_HOLE New Comment=M3_HOLE
+Added Rule: Name=Schematic Supply Nets_8
+Added Rule: Name=Schematic Supply Nets_9
+Added Rule: Name=Schematic Supply Nets_10
+Added Rule: Name=Schematic Supply Nets_11
+Added Rule: Name=Schematic Supply Nets_12
+Added Rule: Name=Schematic Supply Nets_13
+Added Rule: Name=Schematic Supply Nets_14
+Added Rule: Name=Schematic Supply Nets_15

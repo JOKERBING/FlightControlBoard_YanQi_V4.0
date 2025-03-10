@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=GND Pin=LED1-1
+Added Pin To Net: NetName=Core_3.3V Pin=LED1-1

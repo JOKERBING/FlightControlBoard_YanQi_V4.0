@@ -1,0 +1,26 @@
+Error Report for  - Users\JOKERBIN\AppData\Local\Temp\Qjz98E5.tmp
+2025/3/6 22:40:19
+
+Warning arcs were not exported.
+
+Net I2C1_Data_Ready with allias 1 too long.
+Net Peripheral_3.3V with allias 2 too long.
+Net SPI2_Accel_Data_Ready with allias 3 too long.
+Net SPI2_Gyro_Data_Ready with allias 4 too long.
+Net SPI4_Accel_Data_Ready with allias 5 too long.
+Net SPI4_Gyro_Data_Ready with allias 6 too long.
+Warning pad shape change for P1-1 from  to rounded 30mil,30mil
+Warning pad shape change for LED1-1 from  to rounded 14.331mil,14.331mil
+Warning pad shape change for P1-2 from  to rounded 30mil,30mil
+Warning pad shape change for SD1-11 from rounded 70.865mil,157.48mil to rectangular 70.865mil,86.615mil
+Warning pad shape change for SD1-6 from rounded 27.559mil,62.992mil to rectangular 27.559mil,35.433mil
+Warning pad shape change for LED1-2 from  to rounded 14.331mil,14.331mil
+Warning pad shape change for LED1-3 from  to rounded 14.331mil,14.331mil
+Warning pad shape change for LED1-4 from  to rounded 14.331mil,14.331mil
+Warning pad shape change for SD1-4 from rounded 27.559mil,62.992mil to rectangular 27.559mil,35.433mil
+Warning pad shape change for SD1-5 from rounded 27.559mil,62.992mil to rectangular 27.559mil,35.433mil
+Warning pad shape change for SD1-3 from rounded 27.559mil,62.992mil to rectangular 27.559mil,35.433mil
+Warning pad shape change for SD1-7 from rounded 27.559mil,62.992mil to rectangular 27.559mil,35.433mil
+Warning pad shape change for SD1-8 from rounded 27.559mil,62.992mil to rectangular 27.559mil,35.433mil
+Warning pad shape change for SD1-1 from rounded 27.559mil,62.992mil to rectangular 27.559mil,35.433mil
+Warning pad shape change for SD1-2 from rounded 27.559mil,62.992mil to rectangular 27.559mil,35.433mil

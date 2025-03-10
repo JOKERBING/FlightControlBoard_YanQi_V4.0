@@ -1,0 +1,6 @@
+Change component parameters: Designator = "R96" ("R96"); Footprint = "R0805"; UniqueID = "\BDFHSPKL" ("\BDFHSPKL")
+Change component parameters (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Name"; Value = "10m¦¸"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part"; Value = "C163089"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10m¦¸"; VariantName = "[No Variations]"

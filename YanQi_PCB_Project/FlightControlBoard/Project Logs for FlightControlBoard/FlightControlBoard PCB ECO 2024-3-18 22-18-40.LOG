@@ -1,0 +1,9 @@
+Added Component: Designator=P18(MOTOR HALF HOLE)
+Added Component: Designator=P23(MOTOR HALF HOLE)
+Added Component: Designator=P24(MOTOR HALF HOLE)
+Added Pin To Net: NetName=M2_VS2 Pin=P18-1
+Added Pin To Net: NetName=M2_VS1 Pin=P23-1
+Added Pin To Net: NetName=M2_VS3 Pin=P24-1
+Added Member To Class: ClassName=ESC Member=Component P18 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P23 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P24 MotorPad

@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=System_5V Pin=FPC4-1
+Removed Pin From Net: NetName=UART4_TX Pin=FPC4-2
+Removed Pin From Net: NetName=UART4_RX Pin=FPC4-3
+Removed Pin From Net: NetName=GND Pin=FPC4-4
+Removed Pin From Net: NetName=GND Pin=FPC4-5
+Removed Pin From Net: NetName=GND Pin=FPC4-6
+Removed Member From Class: ClassName=Interface Member=FPC4
+Added Component: Designator=J1(CONN-SMD_4P-P0.6)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20231218/E491C8E1E509E6459DF900917B8E5F93.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "SM04B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "SM04B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "SM04B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C5223639"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "SM04B-XSRS-ETB(LF)(SN)"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=System_5V Pin=J1-1
+Added Pin To Net: NetName=UART4_TX Pin=J1-2
+Added Pin To Net: NetName=UART4_RX Pin=J1-3
+Added Pin To Net: NetName=GND Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-6
+Added Member To Class: ClassName=Interface Member=Component J1 SM04B-XSRS-ETB(LF)(SN)
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4
+Added Rule: Name=Schematic Supply Nets_5
+Added Rule: Name=Schematic Supply Nets_6
+Added Rule: Name=Schematic Supply Nets_7

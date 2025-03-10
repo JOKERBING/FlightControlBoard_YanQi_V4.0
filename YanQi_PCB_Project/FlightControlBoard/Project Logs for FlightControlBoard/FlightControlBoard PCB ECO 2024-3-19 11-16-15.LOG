@@ -1,0 +1,17 @@
+Added Component: Designator=C69(C0805)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22uF"; VariantName = "[No Variations]"
+Added Component: Designator=C70(C0805)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22uF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBAT Pin=C69-1
+Added Pin To Net: NetName=GND Pin=C69-2
+Added Pin To Net: NetName=VBAT Pin=C70-1
+Added Pin To Net: NetName=GND Pin=C70-2
+Added Member To Class: ClassName=Interface Member=Component C66 22uF
+Added Member To Class: ClassName=Interface Member=Component C67 22uF
+Added Member To Class: ClassName=Interface Member=Component C68 22uF
+Added Member To Class: ClassName=Interface Member=Component C69 22uF
+Added Member To Class: ClassName=Interface Member=Component C70 22uF

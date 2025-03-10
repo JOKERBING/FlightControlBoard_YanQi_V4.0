@@ -1,0 +1,23 @@
+Added Pin To Net: NetName=GND Pin=J??-1
+Added Pin To Net: NetName=USB_CC1 Pin=J??-2
+Added Pin To Net: NetName=USB_D+ Pin=J??-3
+Added Pin To Net: NetName=USB_D- Pin=J??-4
+Added Pin To Net: NetName=USB_CC2 Pin=J??-5
+Added Pin To Net: NetName=USB_5V Pin=J??-6
+Added Pin To Net: NetName=GND Pin=J??-7
+Added Pin To Net: NetName=GND Pin=J??-8
+Added Pin To Net: NetName=GND Pin=USBC?-13
+Added Pin To Net: NetName=GND Pin=USBC?-14
+Added Pin To Net: NetName=GND Pin=USBC?-15
+Added Pin To Net: NetName=GND Pin=USBC?-16
+Added Pin To Net: NetName=USB_CC1 Pin=USBC?-A5
+Added Pin To Net: NetName=USB_D+ Pin=USBC?-A6
+Added Pin To Net: NetName=USB_D- Pin=USBC?-A7
+Added Pin To Net: NetName=USB_5V Pin=USBC?-A9B4
+Added Pin To Net: NetName=GND Pin=USBC?-A12B1
+Added Pin To Net: NetName=USB_CC2 Pin=USBC?-B5
+Added Pin To Net: NetName=USB_D+ Pin=USBC?-B6
+Added Pin To Net: NetName=USB_D- Pin=USBC?-B7
+Added Pin To Net: NetName=USB_5V Pin=USBC?-B9A4
+Added Pin To Net: NetName=GND Pin=USBC?-B12A1
+Added Class: Name=USB_Converter

@@ -1,0 +1,265 @@
+Change Footprint: Cannot match pads with new footprint in component :P16 Footprint:MOTOR HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P17 Footprint:MOTOR HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P18 Footprint:MOTOR HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P19 Footprint:MOTOR HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P20 Footprint:MOTOR HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P21 Footprint:MOTOR HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P22 Footprint:MOTOR HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P23 Footprint:MOTOR HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P24 Footprint:MOTOR HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P25 Footprint:MOTOR HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P26 Footprint:MOTOR HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P27 Footprint:MOTOR HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P28 Footprint:POWER HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P29 Footprint:POWER HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P30 Footprint:POWER HALF HOLE
+Change Footprint: Cannot match pads with new footprint in component :P31 Footprint:POWER HALF HOLE
+Add Pin To Net: Unknown Pin: Pin H1-1
+Add Pin To Net: Unknown Pin: Pin H2-1
+Add Pin To Net: Unknown Pin: Pin H3-1
+Add Pin To Net: Unknown Pin: Pin H4-1
+Added Member To Class: ClassName=MCU Member=Component C1 4.7uF
+Added Member To Class: ClassName=MCU Member=Component C2 2.2uF
+Added Member To Class: ClassName=MCU Member=Component C3 2.2uF
+Added Member To Class: ClassName=MCU Member=Component C4 1uF
+Added Member To Class: ClassName=MCU Member=Component C5 100nF
+Added Member To Class: ClassName=MCU Member=Component C6 15pF
+Added Member To Class: ClassName=MCU Member=Component C7 100nF
+Added Member To Class: ClassName=MCU Member=Component C8 100nF
+Added Member To Class: ClassName=ESC Member=Component C9 100nF
+Added Member To Class: ClassName=ESC Member=Component C10 100nF
+Added Member To Class: ClassName=ESC Member=Component C11 100nF
+Added Member To Class: ClassName=ESC Member=Component C12 100nF
+Added Member To Class: ClassName=ESC Member=Component C13 100nF
+Added Member To Class: ClassName=ESC Member=Component C14 100nF
+Added Member To Class: ClassName=ESC Member=Component C15 100nF
+Added Member To Class: ClassName=ESC Member=Component C16 100nF
+Added Member To Class: ClassName=ESC Member=Component C17 1uF
+Added Member To Class: ClassName=ESC Member=Component C18 1uF
+Added Member To Class: ClassName=ESC Member=Component C19 1uF
+Added Member To Class: ClassName=ESC Member=Component C20 1uF
+Added Member To Class: ClassName=ESC Member=Component C21 1uF
+Added Member To Class: ClassName=ESC Member=Component C22 1uF
+Added Member To Class: ClassName=ESC Member=Component C23 1uF
+Added Member To Class: ClassName=ESC Member=Component C24 1uF
+Added Member To Class: ClassName=ESC Member=Component C25 1uF
+Added Member To Class: ClassName=ESC Member=Component C26 1uF
+Added Member To Class: ClassName=ESC Member=Component C27 1uF
+Added Member To Class: ClassName=ESC Member=Component C28 1uF
+Added Member To Class: ClassName=Peripheral Member=Component C29 100nF
+Added Member To Class: ClassName=Peripheral Member=Component C30 100nF
+Added Member To Class: ClassName=Peripheral Member=Component C31 10nF
+Added Member To Class: ClassName=Peripheral Member=Component C32 100nF
+Added Member To Class: ClassName=Peripheral Member=Component C33 100nF
+Added Member To Class: ClassName=Peripheral Member=Component C34 2.2uF
+Added Member To Class: ClassName=Peripheral Member=Component C35 100nF
+Added Member To Class: ClassName=Peripheral Member=Component C36 100nF
+Added Member To Class: ClassName=Peripheral Member=Component C37 100nF
+Added Member To Class: ClassName=Peripheral Member=Component C38 100nF
+Added Member To Class: ClassName=Power Member=Component C39 22uF
+Added Member To Class: ClassName=Power Member=Component C40 22uF
+Added Member To Class: ClassName=Power Member=Component C41 22uF
+Added Member To Class: ClassName=Power Member=Component C42 22uF
+Added Member To Class: ClassName=Power Member=Component C43 100nF
+Added Member To Class: ClassName=Power Member=Component C44 100nF
+Added Member To Class: ClassName=Power Member=Component C45 100nF
+Added Member To Class: ClassName=Power Member=Component C46 100nF
+Added Member To Class: ClassName=Power Member=Component C47 100nF
+Added Member To Class: ClassName=Power Member=Component C48 1uF
+Added Member To Class: ClassName=Power Member=Component C49 1uF
+Added Member To Class: ClassName=Power Member=Component C50 100nF
+Added Member To Class: ClassName=Power Member=Component C51 22uF
+Added Member To Class: ClassName=Power Member=Component C52 1uF
+Added Member To Class: ClassName=Power Member=Component C53 1uF
+Added Member To Class: ClassName=Power Member=Component C54 100nF
+Added Member To Class: ClassName=Power Member=Component C55 100nF
+Added Member To Class: ClassName=Power Member=Component C56 1nF
+Added Member To Class: ClassName=Power Member=Component C57 22uF
+Added Member To Class: ClassName=Interface Member=Component C58 22uF
+Added Member To Class: ClassName=Interface Member=Component C59 22uF
+Added Member To Class: ClassName=Interface Member=Component C60 22uF
+Added Member To Class: ClassName=Interface Member=Component C61 22uF
+Added Member To Class: ClassName=Interface Member=Component C62 22uF
+Added Member To Class: ClassName=Interface Member=Component C63 22uF
+Added Member To Class: ClassName=Interface Member=Component C64 22uF
+Added Member To Class: ClassName=ESC Member=Component D1 1N4148WT T4
+Added Member To Class: ClassName=ESC Member=Component D2 1N4148WT T4
+Added Member To Class: ClassName=ESC Member=Component D3 1N4148WT T4
+Added Member To Class: ClassName=ESC Member=Component D4 1N4148WT T4
+Added Member To Class: ClassName=ESC Member=Component D5 1N4148WT T4
+Added Member To Class: ClassName=ESC Member=Component D6 1N4148WT T4
+Added Member To Class: ClassName=ESC Member=Component D7 1N4148WT T4
+Added Member To Class: ClassName=ESC Member=Component D8 1N4148WT T4
+Added Member To Class: ClassName=ESC Member=Component D9 1N4148WT T4
+Added Member To Class: ClassName=ESC Member=Component D10 1N4148WT T4
+Added Member To Class: ClassName=ESC Member=Component D11 1N4148WT T4
+Added Member To Class: ClassName=ESC Member=Component D12 1N4148WT T4
+Added Member To Class: ClassName=Power Member=Component D13 DSS34_C511866
+Added Member To Class: ClassName=Power Member=Component D14 DSS34_C511866
+Added Member To Class: ClassName=Interface Member=Component FPC1 FH34SRJ-6S-0.5SH(50)
+Added Member To Class: ClassName=Interface Member=Component FPC2 FH34SRJ-12S-0.5SH(50)
+Added Member To Class: ClassName=Interface Member=Component FPC3 FH34SRJ-4S-0.5SH(50)
+Added Member To Class: ClassName=Interface Member=Component FPC4 FH34SRJ-12S-0.5SH(50)
+Added Member To Class: ClassName=Interface Member=Component H1 M2_HOLE
+Added Member To Class: ClassName=Interface Member=Component H2 M2_HOLE
+Added Member To Class: ClassName=Interface Member=Component H3 M2_HOLE
+Added Member To Class: ClassName=Interface Member=Component H4 M2_HOLE
+Added Member To Class: ClassName=Power Member=Component L1 SDFL2012T220KTF
+Added Member To Class: ClassName=Power Member=Component L2 SDFL2012T220KTF
+Added Member To Class: ClassName=MCU Member=Component LED1 FC-B1010RGBT-HG
+Added Member To Class: ClassName=MCU Member=Component P1 BurnPad
+Added Member To Class: ClassName=MCU Member=Component P2 ShortCircuitPad
+Added Member To Class: ClassName=MCU Member=Component P3 BurnPad
+Added Member To Class: ClassName=ESC Member=Component P4 BurnPad
+Added Member To Class: ClassName=ESC Member=Component P5 BurnPad
+Added Member To Class: ClassName=ESC Member=Component P6 BurnPad
+Added Member To Class: ClassName=ESC Member=Component P7 BurnPad
+Added Member To Class: ClassName=ESC Member=Component P8 BurnPad
+Added Member To Class: ClassName=ESC Member=Component P9 BurnPad
+Added Member To Class: ClassName=ESC Member=Component P10 BurnPad
+Added Member To Class: ClassName=ESC Member=Component P11 BurnPad
+Added Member To Class: ClassName=ESC Member=Component P12 BurnPad
+Added Member To Class: ClassName=ESC Member=Component P13 BurnPad
+Added Member To Class: ClassName=ESC Member=Component P14 BurnPad
+Added Member To Class: ClassName=ESC Member=Component P15 BurnPad
+Added Member To Class: ClassName=ESC Member=Component P16 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P17 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P18 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P19 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P20 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P21 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P22 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P23 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P24 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P25 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P26 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P27 MotorPad
+Added Member To Class: ClassName=Power Member=Component P28 Power_Pad
+Added Member To Class: ClassName=Power Member=Component P29 Power_Pad
+Added Member To Class: ClassName=Power Member=Component P30 Power_Pad
+Added Member To Class: ClassName=Power Member=Component P31 Power_Pad
+Added Member To Class: ClassName=ESC Member=Component Q1 AON7934
+Added Member To Class: ClassName=ESC Member=Component Q2 AON7934
+Added Member To Class: ClassName=ESC Member=Component Q3 AON7934
+Added Member To Class: ClassName=ESC Member=Component Q4 AON7934
+Added Member To Class: ClassName=ESC Member=Component Q5 AON7934
+Added Member To Class: ClassName=ESC Member=Component Q6 AON7934
+Added Member To Class: ClassName=ESC Member=Component Q7 AON7934
+Added Member To Class: ClassName=ESC Member=Component Q8 AON7934
+Added Member To Class: ClassName=ESC Member=Component Q9 AON7934
+Added Member To Class: ClassName=ESC Member=Component Q10 AON7934
+Added Member To Class: ClassName=ESC Member=Component Q11 AON7934
+Added Member To Class: ClassName=ESC Member=Component Q12 AON7934
+Added Member To Class: ClassName=MCU Member=Component R1 10k次
+Added Member To Class: ClassName=MCU Member=Component R2 10k次
+Added Member To Class: ClassName=ESC Member=Component R3 1k次
+Added Member To Class: ClassName=ESC Member=Component R4 1k次
+Added Member To Class: ClassName=ESC Member=Component R5 1k次
+Added Member To Class: ClassName=ESC Member=Component R6 1k次
+Added Member To Class: ClassName=ESC Member=Component R7 10k次
+Added Member To Class: ClassName=ESC Member=Component R8 10k次
+Added Member To Class: ClassName=ESC Member=Component R9 10k次
+Added Member To Class: ClassName=ESC Member=Component R10 10k次
+Added Member To Class: ClassName=ESC Member=Component R11 10k次
+Added Member To Class: ClassName=ESC Member=Component R12 10k次
+Added Member To Class: ClassName=ESC Member=Component R13 10k次
+Added Member To Class: ClassName=ESC Member=Component R14 10k次
+Added Member To Class: ClassName=ESC Member=Component R15 10k次
+Added Member To Class: ClassName=ESC Member=Component R16 10k次
+Added Member To Class: ClassName=ESC Member=Component R17 10k次
+Added Member To Class: ClassName=ESC Member=Component R18 10k次
+Added Member To Class: ClassName=ESC Member=Component R19 10k次
+Added Member To Class: ClassName=ESC Member=Component R20 10k次
+Added Member To Class: ClassName=ESC Member=Component R21 10k次
+Added Member To Class: ClassName=ESC Member=Component R22 10k次
+Added Member To Class: ClassName=ESC Member=Component R23 47k次
+Added Member To Class: ClassName=ESC Member=Component R24 4.7k次
+Added Member To Class: ClassName=ESC Member=Component R25 47k次
+Added Member To Class: ClassName=ESC Member=Component R26 4.7k次
+Added Member To Class: ClassName=ESC Member=Component R27 47k次
+Added Member To Class: ClassName=ESC Member=Component R28 4.7k次
+Added Member To Class: ClassName=ESC Member=Component R29 47k次
+Added Member To Class: ClassName=ESC Member=Component R30 4.7k次
+Added Member To Class: ClassName=ESC Member=Component R31 47k次
+Added Member To Class: ClassName=ESC Member=Component R32 4.7k次
+Added Member To Class: ClassName=ESC Member=Component R33 47k次
+Added Member To Class: ClassName=ESC Member=Component R34 4.7k次
+Added Member To Class: ClassName=ESC Member=Component R35 47k次
+Added Member To Class: ClassName=ESC Member=Component R36 4.7k次
+Added Member To Class: ClassName=ESC Member=Component R37 47k次
+Added Member To Class: ClassName=ESC Member=Component R38 4.7k次
+Added Member To Class: ClassName=ESC Member=Component R39 47k次
+Added Member To Class: ClassName=ESC Member=Component R40 4.7k次
+Added Member To Class: ClassName=ESC Member=Component R41 47k次
+Added Member To Class: ClassName=ESC Member=Component R42 4.7k次
+Added Member To Class: ClassName=ESC Member=Component R43 47k次
+Added Member To Class: ClassName=ESC Member=Component R44 4.7k次
+Added Member To Class: ClassName=ESC Member=Component R45 47k次
+Added Member To Class: ClassName=ESC Member=Component R46 4.7k次
+Added Member To Class: ClassName=ESC Member=Component R47 10次
+Added Member To Class: ClassName=ESC Member=Component R48 10次
+Added Member To Class: ClassName=ESC Member=Component R49 10次
+Added Member To Class: ClassName=ESC Member=Component R50 10次
+Added Member To Class: ClassName=ESC Member=Component R51 10次
+Added Member To Class: ClassName=ESC Member=Component R52 10次
+Added Member To Class: ClassName=ESC Member=Component R53 10次
+Added Member To Class: ClassName=ESC Member=Component R54 10次
+Added Member To Class: ClassName=ESC Member=Component R55 10次
+Added Member To Class: ClassName=ESC Member=Component R56 10次
+Added Member To Class: ClassName=ESC Member=Component R57 10次
+Added Member To Class: ClassName=ESC Member=Component R58 10次
+Added Member To Class: ClassName=ESC Member=Component R59 10次
+Added Member To Class: ClassName=ESC Member=Component R60 10次
+Added Member To Class: ClassName=ESC Member=Component R61 10次
+Added Member To Class: ClassName=ESC Member=Component R62 10次
+Added Member To Class: ClassName=ESC Member=Component R63 10次
+Added Member To Class: ClassName=ESC Member=Component R64 10次
+Added Member To Class: ClassName=ESC Member=Component R65 10次
+Added Member To Class: ClassName=ESC Member=Component R66 10次
+Added Member To Class: ClassName=ESC Member=Component R67 10次
+Added Member To Class: ClassName=ESC Member=Component R68 10次
+Added Member To Class: ClassName=ESC Member=Component R69 10次
+Added Member To Class: ClassName=ESC Member=Component R70 10次
+Added Member To Class: ClassName=Peripheral Member=Component R71 4.7k次
+Added Member To Class: ClassName=Peripheral Member=Component R72 4.7k次
+Added Member To Class: ClassName=Peripheral Member=Component R73 4.7k次
+Added Member To Class: ClassName=Peripheral Member=Component R74 4.7k次
+Added Member To Class: ClassName=Peripheral Member=Component R75 10k次
+Added Member To Class: ClassName=Peripheral Member=Component R76 10k次
+Added Member To Class: ClassName=Peripheral Member=Component R77 10k次
+Added Member To Class: ClassName=Peripheral Member=Component R78 10k次
+Added Member To Class: ClassName=Peripheral Member=Component R79 10k次
+Added Member To Class: ClassName=Power Member=Component R80 5.1k次
+Added Member To Class: ClassName=Power Member=Component R81 5.1k次
+Added Member To Class: ClassName=Power Member=Component R82 22次
+Added Member To Class: ClassName=Power Member=Component R83 22次
+Added Member To Class: ClassName=Power Member=Component R84 10k次
+Added Member To Class: ClassName=Power Member=Component R85 10k次
+Added Member To Class: ClassName=Power Member=Component R86 140k次
+Added Member To Class: ClassName=Power Member=Component R87 74k次
+Added Member To Class: ClassName=Power Member=Component R88 100k次
+Added Member To Class: ClassName=Power Member=Component R89 100k次
+Added Member To Class: ClassName=Power Member=Component R90 10k次
+Added Member To Class: ClassName=Power Member=Component R91 100k次
+Added Member To Class: ClassName=Power Member=Component R92 56次
+Added Member To Class: ClassName=Power Member=Component R93 10m次
+Added Member To Class: ClassName=Peripheral Member=Component SD1 TF-027-H300
+Added Member To Class: ClassName=MCU Member=Component U1 STM32H743VIH6
+Added Member To Class: ClassName=ESC Member=Component U2 EFM8BB21F16G
+Added Member To Class: ClassName=ESC Member=Component U3 EFM8BB21F16G
+Added Member To Class: ClassName=ESC Member=Component U4 EFM8BB21F16G
+Added Member To Class: ClassName=ESC Member=Component U5 EFM8BB21F16G
+Added Member To Class: ClassName=ESC Member=Component U6 FD6288Q
+Added Member To Class: ClassName=ESC Member=Component U7 FD6288Q
+Added Member To Class: ClassName=ESC Member=Component U8 FD6288Q
+Added Member To Class: ClassName=ESC Member=Component U9 FD6288Q
+Added Member To Class: ClassName=Peripheral Member=Component U10 ICM-42688-P
+Added Member To Class: ClassName=Peripheral Member=Component U11 BMI088
+Added Member To Class: ClassName=Peripheral Member=Component U12 BMI088
+Added Member To Class: ClassName=Peripheral Member=Component U13 BMP388
+Added Member To Class: ClassName=Power Member=Component U14 MP2225GJ-Z
+Added Member To Class: ClassName=Power Member=Component U15 MP2225GJ-Z
+Added Member To Class: ClassName=Power Member=Component U16 RT9013-33GB
+Added Member To Class: ClassName=Power Member=Component U17 RT9013-33GB
+Added Member To Class: ClassName=Power Member=Component U18 INA199A1DCKR
+Added Member To Class: ClassName=MCU Member=Component X1 X1G004171002700

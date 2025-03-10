@@ -1,0 +1,21 @@
+Altium Designer Pick and Place Locations
+F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\USB_Converter\Project Outputs for USB_Converter\Pick Place for USB_Converter.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       06/03/25
+Time:       22:33
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+"Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"P6","BurnPad","BottomLayer","BurnPad_0.5mm","1141.732","177.165","180",""
+"P5","BurnPad","BottomLayer","BurnPad_0.5mm","1141.732","334.646","180",""
+"P4","BurnPad","BottomLayer","BurnPad_0.5mm","1141.732","255.905","180",""
+"P3","BurnPad","BottomLayer","BurnPad_0.5mm","1141.732","295.276","180",""
+"P2","BurnPad","BottomLayer","BurnPad_0.5mm","1141.732","216.535","180",""
+"P1","BurnPad","BottomLayer","BurnPad_0.5mm","1141.732","374.016","180",""
+"USBC1","918-418K2024S40000","TopLayer","USB-C-SMD_TYPE-C-USB-4","180.217","275.591","270",""
+"J1","SM06B-XSRS-ETB(LF)(SN)","TopLayer","CONN-SMD_6P-P0.6","1122.047","275.591","90",""
