@@ -1,31 +1,27 @@
 # YanQi Flight Control Board V4.0
 
-**3 x IMU & Baro & 4 x ESC small size PX4 for MAV research.**
+**2 x IMU & Baro & 4 x ESC small size PX4 for MAV research.**
 
-<div align=center><img src="Pictures/20250310.png" width="800"></div>
+<div align=center><img src="Pictures/2025032401.png" width="800"></div>
 
 ## Physical
 
 - Mounting: 20 x 35 mm, Φ 2 mm
-- Dimensions: 24 x 39 x 6 mm
+- Dimensions: 24 x 42.4 x 6 mm
 - Weight: 4.9 g
 
 ## Specifications
 
 - MCU: STM32H743VIH6, 480MHz, 2MB Flash
-- IMU: BMI088 + BMI088 + ICM42688P
+- IMU: BMI088 + BMI088
 - Baro: BMP388
 - ESC: 4 x Bluejay
 - MicroSD Card Slot
-- 7 x UART
+- USB
+- 5 x UART
 - 4 x PWM (DShot)
 - 1 x External I2C
-- 1 x External SPI
-- 1 x SRGBLED neopixel
-- 1 x SWD
-- 2 x ADC (Battery Voltage, Current)
-- 2 x AUX
-- USB Type-C
+- 2 x ADC (Battery Voltage, Battery Current)
 - BEC 9V 3A output
 - BEC 5V 3A output
 
@@ -48,18 +44,12 @@
 | UART   | TTY | SerialName | Suggest Funcion | DMA |
 | :----: | :-: | :--------: | :-------------: | :-: |
 | USART1 | /dev/ttyS0 | GPS1 |                       | OFF |
-| USART2 | /dev/ttyS1 | GPS2 | WIFI module (ESP8266) | ON  |
-| USART3 | /dev/ttyS2 | TEL1 |         DEBUG         | OFF |
+| USART2 | /dev/ttyS1 | TEL1 | WIFI module (ESP8266) | ON  |
 | UART4  | /dev/ttyS3 | TEL2 |      Offboard PC      | ON  |
-| UART5  | /dev/ttyS4 |  RC  |  Receiver BlackSheep  | ON  |
-| USART6 | /dev/ttyS5 | TEL3 |                       | OFF |
-| UART7  | /dev/ttyS6 | TEL4 | Optical Flow (MTF-01) | ON  |
+| UART5  | /dev/ttyS4 |  RC  |     ELRS Receiver     | ON  |
+| UART7  | /dev/ttyS6 | TEL3 |     Optical Flow      | ON  |
 
 </div>
-
-## Debug Port
-
-USART3 RX and TX are configured for use as the **System Console**.
 
 ## Getting Start
 
@@ -145,8 +135,3 @@ Once the firmware has completed loading, the device/vehicle will reboot and reco
 
 ### Receiver
 
-
-
-## TODO
-
-- [ ]  stable SRGBLED driver based on srgbled_dma
