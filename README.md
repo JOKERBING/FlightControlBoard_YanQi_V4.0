@@ -27,19 +27,7 @@
 
 ## UART Mapping
 
-<style>
-
-.center
-{
-  width: auto;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-</style>
-
-<div class="center">
+<div align="center">
 
 | UART   | TTY | SerialName | Suggest Funcion | DMA |
 | :----: | :-: | :--------: | :-------------: | :-: |
@@ -50,6 +38,18 @@
 | UART7  | /dev/ttyS6 | TEL3 |     Optical Flow      | ON  |
 
 </div>
+
+<center>
+
+| UART   | TTY | SerialName | Suggest Funcion | DMA |
+| :----: | :-: | :--------: | :-------------: | :-: |
+| USART1 | /dev/ttyS0 | GPS1 |                       | OFF |
+| USART2 | /dev/ttyS1 | TEL1 | WIFI module (ESP8266) | ON  |
+| UART4  | /dev/ttyS3 | TEL2 |      Offboard PC      | ON  |
+| UART5  | /dev/ttyS4 |  RC  |     ELRS Receiver     | ON  |
+| UART7  | /dev/ttyS6 | TEL3 |     Optical Flow      | ON  |
+
+</center>
 
 ## Getting Start
 
