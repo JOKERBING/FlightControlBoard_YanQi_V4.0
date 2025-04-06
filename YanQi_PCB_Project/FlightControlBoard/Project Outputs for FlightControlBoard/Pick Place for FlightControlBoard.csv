@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\FlightControlBoard\Project Outputs for FlightControlBoard\Pick Place for FlightControlBoard.csv
+F:\FlightControlBoard_YanQi_V4.0\YanQi_PCB_Project\FlightControlBoard\Project Outputs for FlightControlBoard\Pick Place for FlightControlBoard.csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       06/03/25
-Time:       22:40
-Revision:   Not in VersionControl
+Date:       31/03/25
+Time:       15:21
+Revision:   21564e3112137f8028e51b470421bf1133c04328
 Variant:    No variations
 Units used: mil
 
@@ -17,7 +17,6 @@ Units used: mil
 "J4","ZX-SH1.0-4PWT","BottomLayer","ELRSPAD","511.811","1653.543","180",""
 "J2","SM06B-XSRS-ETB(LF)(SN)","BottomLayer","CONN-SMD_6P-P0.6","511.811","98.425","180",""
 "J6","SM04B-XSRS-ETB(LF)(SN)","TopLayer","CONN-SMD_4P-P0.6","94.488","976.378","270",""
-"P30","BurnPad","BottomLayer","BurnPad_0.5mm","295.276","1051.181","90",""
 "C70","22uF","BottomLayer","C0805","787.402","1492.126","90",""
 "C69","22uF","BottomLayer","C0805","720.472","1043.307","180",""
 "C68","22uF","BottomLayer","C0805","236.220","1492.126","90",""

@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: FlightControlBoard.GBR   2025/3/6  22:39:40
+Gerber File Extension Report For: FlightControlBoard.GBR   2025/3/31  15:19:28
 ------------------------------------------------------------------------------------------
 
 
@@ -24,6 +24,12 @@ Layer Extension     Layer Description
 .gbr                Keep-Out Layer                          
 .gbr                Top Pad Master                          
 .gbr                Bottom Pad Master                       
+.gbr                Dielectric 2                            
+.gbr                Dielectric 1                            
+.gbr                Dielectric 4                            
+.gbr                Multi-Layer                             
+.gbr                Dielectric 5                            
+.gbr                Dielectric 3                            
 .gbr                Drill Drawing                           
 .gbr                Drill Guide                             
 .gbr                Profile                                 

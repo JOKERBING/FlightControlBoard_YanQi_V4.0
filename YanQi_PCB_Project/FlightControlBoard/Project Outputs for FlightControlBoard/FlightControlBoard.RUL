@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: F:\Fully_Autonomous_MAV_YanQi_V4.0\YanQi_PCB_Project\FlightControlBoard\FlightControlBoard.PcbDoc
+DRC Rules Export File for PCB: F:\FlightControlBoard_YanQi_V4.0\YanQi_PCB_Project\FlightControlBoard\FlightControlBoard.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.94
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.94
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

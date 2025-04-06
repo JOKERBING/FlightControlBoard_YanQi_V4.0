@@ -1,0 +1,38 @@
+Removed Member From Class: ClassName=Power Member=C33
+Removed Member From Class: ClassName=Power Member=C35
+Removed Member From Class: ClassName=Interface Member=C51
+Removed Member From Class: ClassName=Power Member=P25
+Removed Member From Class: ClassName=Power Member=U12
+Change Component Footprint: Designator=P30 Old Footprint=BurnPad_0.5mm New Footprint=BurnPad_0.8mm
+Added Member To Class: ClassName=Peripheral Member=Component C32 100nF
+Added Member To Class: ClassName=Power Member=Component C36 22uF
+Added Member To Class: ClassName=Power Member=Component C38 22uF
+Added Member To Class: ClassName=Power Member=Component C40 100nF
+Added Member To Class: ClassName=Power Member=Component C42 100nF
+Added Member To Class: ClassName=Power Member=Component C44 100nF
+Added Member To Class: ClassName=Power Member=Component C46 1uF
+Added Member To Class: ClassName=Power Member=Component C48 1uF
+Added Member To Class: ClassName=Power Member=Component C50 100nF
+Added Member To Class: ClassName=Power Member=Component C52 1nF
+Added Member To Class: ClassName=Interface Member=Component C54 22uF
+Added Member To Class: ClassName=Interface Member=Component C59 22uF
+Added Member To Class: ClassName=Interface Member=Component C60 22uF
+Added Member To Class: ClassName=Interface Member=Component C63 22uF
+Added Member To Class: ClassName=Interface Member=Component C65 22uF
+Added Member To Class: ClassName=Interface Member=Component C68 22uF
+Added Member To Class: ClassName=Interface Member=Component C69 22uF
+Added Member To Class: ClassName=Interface Member=Component C70 22uF
+Added Member To Class: ClassName=Interface Member=Component J1 SM06B-XSRS-ETB(LF)(SN)
+Added Member To Class: ClassName=Interface Member=Component J3 SM04B-XSRS-ETB(LF)(SN)
+Added Member To Class: ClassName=ESC Member=Component P14 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P17 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P18 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P20 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P21 MotorPad
+Added Member To Class: ClassName=ESC Member=Component P24 MotorPad
+Added Member To Class: ClassName=Power Member=Component P27 Power_Pad
+Added Member To Class: ClassName=Power Member=Component P28 Power_Pad
+Added Member To Class: ClassName=Peripheral Member=Component U11 BMI088
+Added Member To Class: ClassName=Power Member=Component U13 MP2225GJ-Z
+Added Member To Class: ClassName=Power Member=Component U15 RT9013-33GB
+Added Member To Class: ClassName=Power Member=Component U17 INA199A1DCKR
