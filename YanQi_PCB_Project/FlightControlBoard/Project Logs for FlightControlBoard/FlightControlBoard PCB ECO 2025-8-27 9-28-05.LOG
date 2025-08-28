@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=M1_PWM Pin=P10-1
+Removed Pin From Net: NetName=M2_PWM Pin=P11-1
+Removed Pin From Net: NetName=M3_PWM Pin=P12-1
+Removed Pin From Net: NetName=M4_PWM Pin=P13-1
+Removed Member From Class: ClassName=ESC Member=P10
+Removed Member From Class: ClassName=ESC Member=P11
+Removed Member From Class: ClassName=ESC Member=P12
+Removed Member From Class: ClassName=ESC Member=P13

@@ -4,9 +4,9 @@ F:\FlightControlBoard_YanQi_V4.0\YanQi_PCB_Project\FlightControlBoard\Project Ou
 ========================================================================================================================
 File Design Information:
 
-Date:       31/03/25
-Time:       15:21
-Revision:   21564e3112137f8028e51b470421bf1133c04328
+Date:       27/08/25
+Time:       10:14
+Revision:   7bfdfa752566ae723bbbc649ad25b8f342b3a7a3
 Variant:    No variations
 Units used: mil
 
@@ -14,7 +14,7 @@ Units used: mil
 "J5","SM04B-XSRS-ETB(LF)(SN)","TopLayer","CONN-SMD_4P-P0.6","539.370","1515.748","180",""
 "J1","SM06B-XSRS-ETB(LF)(SN)","TopLayer","CONN-SMD_6P-P0.6","322.835","1515.748","180",""
 "J3","SM04B-XSRS-ETB(LF)(SN)","TopLayer","CONN-SMD_4P-P0.6","728.346","1515.748","180",""
-"J4","ZX-SH1.0-4PWT","BottomLayer","ELRSPAD","511.811","1653.543","180",""
+"J4","ZX-SH1.0-4PWT","BottomLayer","ELRSPAD","511.811","1732.284","180",""
 "J2","SM06B-XSRS-ETB(LF)(SN)","BottomLayer","CONN-SMD_6P-P0.6","511.811","98.425","180",""
 "J6","SM04B-XSRS-ETB(LF)(SN)","TopLayer","CONN-SMD_4P-P0.6","94.488","976.378","270",""
 "C70","22uF","BottomLayer","C0805","787.402","1492.126","90",""
@@ -173,10 +173,6 @@ Units used: mil
 "P29","Power_Pad","TopLayer","POWER_HALF_HOLE","992.126","866.142","0",""
 "P27","Power_Pad","TopLayer","POWER_HALF_HOLE","992.126","629.921","0",""
 "P26","Power_Pad","TopLayer","POWER_HALF_HOLE","992.126","984.252","0",""
-"P13","BurnPad","BottomLayer","BURNPAD_0.8MM","295.276","830.709","90",""
-"P12","BurnPad","BottomLayer","BURNPAD_0.8MM","295.276","885.827","90",""
-"P11","BurnPad","BottomLayer","BURNPAD_0.8MM","295.276","940.945","90",""
-"P10","BurnPad","BottomLayer","BURNPAD_0.8MM","295.276","996.063","90",""
 "P9","BurnPad","BottomLayer","BURNPAD_0.5MM","539.370","287.402","180",""
 "P8","BurnPad","BottomLayer","BURNPAD_0.5MM","578.740","287.402","180",""
 "P7","BurnPad","BottomLayer","BURNPAD_0.5MM","484.252","1326.772","180",""

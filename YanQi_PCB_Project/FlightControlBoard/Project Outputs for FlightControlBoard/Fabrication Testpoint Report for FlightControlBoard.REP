@@ -1,5 +1,5 @@
-Error Report for  - Users\JOKERBIN\AppData\Local\Temp\Qjz9731.tmp
-2025/3/31 15:20:27
+Error Report for  - Users\JOKERBIN\AppData\Local\Temp\Qjz3B27.tmp
+2025/8/27 10:13:48
 
 Warning arcs were not exported.
 
@@ -10,8 +10,8 @@ Net SPI2_Gyro_Data_Ready with allias 4 too long.
 Net SPI4_Accel_Data_Ready with allias 5 too long.
 Net SPI4_Gyro_Data_Ready with allias 6 too long.
 Warning pad shape change for P1-1 from  to rounded 30mil,30mil
-Warning pad shape change for LED1-1 from  to rounded 14.331mil,14.331mil
 Warning pad shape change for P1-2 from  to rounded 30mil,30mil
+Warning pad shape change for LED1-1 from  to rounded 14.331mil,14.331mil
 Warning pad shape change for SD1-11 from rounded 70.865mil,157.48mil to rectangular 70.865mil,86.615mil
 Warning pad shape change for SD1-6 from rounded 27.559mil,62.992mil to rectangular 27.559mil,35.433mil
 Warning pad shape change for LED1-2 from  to rounded 14.331mil,14.331mil
